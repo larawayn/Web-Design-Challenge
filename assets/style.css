@@ -1,0 +1,70 @@
+h1 {
+  text-align: left;
+  background-color: white;
+  color:rgb(55, 0, 255); 
+}
+
+h2 {
+    text-align: left;
+    background-color: rgba(21, 255, 0, 0.288);
+    color: white;
+}
+
+h3 {
+  color: orange;
+}
+
+h4 {
+  text-align: center;
+}
+
+img {border: black; 
+}
+
+section {
+  padding: 20px;
+  background-color: white;
+  margin: 2%;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+
+p {
+  font-size: 16px;
+  color: black;
+  Align: right
+}
+
+ul {
+  border-style: solid;
+  color: gray;
+}
+
+.sidenav {
+  Float: right;
+  width: 750px; /* Set the width of the sidebar */
+  overflow: hidden;
+  background-color: white;
+  margin-top: 2%;
+  margin-right: 5%
+}
+.box-1 {
+  width: 800px;
+  height: 800px;
+  margin-left: 5%;
+  margin-top: 2%;
+
+}
+@media (max-width: 750px) {
+  .sidenav { 
+    
+  
+  } 
+
+  .box-1 h1 {
+    background-color: brown;
+  }
+}
