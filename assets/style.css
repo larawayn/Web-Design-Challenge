@@ -1,7 +1,7 @@
 h1 {
-  text-align: left;
+  
   background-color: white;
-  color:rgb(55, 0, 255); 
+  color:rgb(55, 0, 255);
 }
 
 h2 {
@@ -22,9 +22,9 @@ img {border: black;
 }
 
 section {
-  padding: 20px;
+  padding: 5px;
   background-color: white;
-  margin: 2%;
+  margin: 1%;
 }
 
 body {
@@ -35,36 +35,12 @@ body {
 p {
   font-size: 16px;
   color: black;
-  Align: right
+  Align: right;
+  background-color: white
+
 }
 
 ul {
   border-style: solid;
   color: gray;
-}
-
-.sidenav {
-  Float: right;
-  width: 750px; /* Set the width of the sidebar */
-  overflow: hidden;
-  background-color: white;
-  margin-top: 2%;
-  margin-right: 5%
-}
-.box-1 {
-  width: 800px;
-  height: 800px;
-  margin-left: 5%;
-  margin-top: 2%;
-
-}
-@media (max-width: 750px) {
-  .sidenav { 
-    
-  
-  } 
-
-  .box-1 h1 {
-    background-color: brown;
-  }
 }

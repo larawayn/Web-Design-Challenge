@@ -41,41 +41,50 @@
 
 
 <body>
-  <div class="sidenav" Align="Right">
-    <h1>Visualizations</h1>
-    <div class="container"></div>
-      <div class="row"> 
-        <div class="col-md-6">
-          <a href="temperature.html"> <img src="images/Fig1.png" height="250px" > </a> 
-        </div>
-        <div class="col-md-6">
-          <a href="humidity.html"> <img src="images/Fig2.png" height="250px" > </a> 
-        </div>
+  <div class="container-fluid" >
+    <div class="row"> 
+      <div class="col-lg-6">
+        <section>
+          <h1 class="display-9"><strong> Summary: Latitude vs. X<strong></h1>
+            <img src="images/Fig1.png"   class="img-fluid side">
+              <p>The purpose of this project was to analyze how weather changes based on latitude and distance from the equator.
+              Using OpenWeatherMap API, weather and location data was first pulled and used to assemble a dataset of over 500 cities. 
+              The data was brought into Python and put into dataframes using Pandas. Matplotlib was then used to plot the weather
+              attributes vs. latitude. Weather attributes included: temperature, cloudiness, wind speed and humidity. This site 
+              contains the source data, visualizations and summary of the trends and correlations observed.
+            </p>
+         </section>
       </div>
-        <div class="row"> 
-          <div class="col-md-6">  
-            <a href="cloudiness.html"> <img src="images/Fig3.png"  height="250px" > </a> 
-          </div>
-            <div class="col-md-6">    
-              <a href="windspeed.html"> <img src="images/Fig4.png" height="250px" > </a>
+  
+      <div class="col-lg-6">
+        <section >
+          <h1 class="display-6"><strong>Visualizations </strong></h1>
+            <div class="row"> 
+              <div class="col">
+                <a href="temperature.html"> <img   src="images/Fig1.png" class="img-fluid side" > </a> 
+              </div>
             </div>
-          </div>
-      </div>
+              <div class="row"> 
+                <div class="col">
+                  <a href="humidity.html"> <img    src="images/Fig2.png" class="img-fluid side" > </a> 
+                </div>
+              </div>
+              <div class="row"> 
+                <div class="col">  
+                  <a href="cloudiness.html"> <img src="images/Fig3.png" class="img-fluid side" > </a> 
+                </div>
+              </div>
+              <div class="row"> 
+                <div class="col">    
+                  <a href="windspeed.html"> <img src="images/Fig4.png" class="img-fluid side" > </a>
+                </div>
+              </div>
+            </section>
+        </div>
+    </div>
   </div>
-
-  <div class="box-1">
-  <section Align="left">
-    <h1><strong></strong> Summary: Latitude vs. X</h1><strong>
-      <img src="images/Fig1.png" width="400px" Align="left">
-        <p>The purpose of this project was to analyze how weather changes based on latitude and distance from the equator.
-        Using OpenWeatherMap API, weather and location data was first pulled and used to assemble a dataset of over 500 cities. 
-        The data was brought into Python and put into dataframes using Pandas. Matplotlib was then used to plot the weather
-        attributes vs. latitude. Weather attributes included: temperature, cloudiness, wind speed and humidity. This site 
-        contains the source data, visualizations and summary of the trends and correlations observed.
-      </p>
-  </section>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
 </html>
