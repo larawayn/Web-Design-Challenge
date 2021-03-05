@@ -37,27 +37,27 @@ This section contains screenshots of each page.
 
 #### <a id="landing-page"></a>Landing page
 
-![Landing page large screen](Images/landingpage.png)
+![Landing page large screen](images/landingpage.png)
 
 
 #### <a id="comparisons-page"></a>Comparisons page
 
 
-![comparison page large screen](Images/comparisonpage.png)
+![comparison page large screen](images/comparisonpage.png)
 
 #### <a id="data-page"></a>Data page
 
 
 
-![data page large screen](Images/datapage.png)
+![data page large screen](images/datapage.png)
 
 
 #### <a id="visualization-pages"></a>Visualization pages
 
-![visualize page large screen](Images/visualizationspage.png)
+![visualize page large screen](images/visualizationspage.png)
 
 #### <a id="navigation-menu"></a>Navigation menu
 
-![nav menu large screen](Images/navigation.png)
+![nav menu large screen](images/navigation.png)
 
 
